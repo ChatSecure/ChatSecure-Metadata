@@ -5,6 +5,36 @@ import copy
 import shutil
 import subprocess
 
+
+SUPPORTED_LANGUAGES =  {'en-US': 'English (Default)',
+                        'en-AU': 'English (Australia)',
+                        'en-CA': 'English (Canada)',
+                        'en-GB': 'English (UK)',
+                        'pt-BR': 'Portugese (Brazil)',
+                        'de-DE': 'German',
+                        'no': 'Norwegian',
+                        'ru': 'Russian',
+                        'zh-CN': 'Chinese',
+                        'zh-TW': 'Chinese (Traditional)',
+                        'sv': 'Swedish',
+                        'tr': 'Turkish',
+                        'fr': 'French',
+                        'fr-CA': 'French (Canada)',
+                        'da': 'Danish',
+                        'nl': 'Dutch',
+                        'fi': 'Finnish',
+                        'el': 'Greek',
+                        'id': 'Indonesian',
+                        'it': 'Italian',
+                        'ja': 'Japanese',
+                        'ko': 'Korean',
+                        'ms': 'Malay',
+                        'es': 'Spanish',
+                        'es-MX': 'Spanish (Mexico)',
+                        'pt': 'Portugese',
+                        'th': 'Thai',
+                        'vi': 'Vietnamese',
+                       }
 LOCALIZATIONS_DIR = 'localizations'
 LPROJ_EXTENSION = '.lproj'
 STRINGS_FILENAME = 'AppStore.strings'
@@ -47,7 +77,6 @@ def load_device_screenshot_languages(device_type=None):
 
     for filename in contents:
         path = os.path.join(device_path, filename)
-        print path
         if os.path.isdir(path):
             languages.append(filename)
 
@@ -60,10 +89,8 @@ def load_all_screenshots():
 
     for device_type in device_types.keys():
         languages = device_types[device_type]
-        for langauge in languages:
-            print langauge + ' ' + device_type
-            load_screenshots(langauge, device_type)
-
+        for language in languages:
+            load_screenshots(language, device_type)
 
 def parse_localizations():
     stringsets = {}
@@ -123,6 +150,25 @@ def screenshots_for_language(language_code=None):
         language_screens[key_for_type] = file_names
     return language_screens
 
+def find_language(localization):
+    name = localization
+
+    if localization == 'de':
+        return 'de-DE'
+    if localization == 'en':
+        return 'en-US'
+
+    if '_' in localization:
+        name = localization.replace('_', '-') 
+    language = SUPPORTED_LANGUAGES.get(name, None)
+
+    if language is None and '-' in name:
+        name = name.split('-')[0]
+        language = SUPPORTED_LANGUAGES.get(name, None)
+    if language is not None:
+        return name
+    return None
+
 def generate_yaml():
     f = open(METADATA_TEMPLATE, 'r')
     contents = f.read()
@@ -132,17 +178,24 @@ def generate_yaml():
     english_locale = locales[0]
 
     new_locales = []
+    completed_languages = {}
 
     for localization in localizations:
         new_locale = copy.deepcopy(english_locale)
-        name = localization
-        if '_' in localization:
-            name = localization.replace('_', '-') 
+        name = find_language(localization)
+        if name is None:
+            print 'Found localization for ' + localization + ' but not in supported iTunes Connect languages, skipping...'
+            continue
         new_locale['name'] = name
         new_locale['title'] = appstore_titles[localization]
         new_locale['description'] = appstore_descriptions[localization]
         new_locale['screenshots'] = screenshots_for_language(localization)
-        new_locales.append(new_locale)
+        if completed_languages.get(name, None) is None:
+            print 'Adding metadata for ' + name + ' / ' + localization
+            completed_languages[name] = name
+            new_locales.append(new_locale)
+        else:
+            print 'Already completed language ' + name + ' for ' + localization
 
     template['versions'][0]['locales'] = new_locales
 
