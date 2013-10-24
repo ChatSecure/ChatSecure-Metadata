@@ -3,6 +3,7 @@ import os
 import yaml
 import copy
 import shutil
+import subprocess
 
 LOCALIZATIONS_DIR = 'localizations'
 LPROJ_EXTENSION = '.lproj'
@@ -15,6 +16,7 @@ DEVICE_IPHONE_35 = 'iphone-3.5'
 DEVICE_IPHONE_4 = 'iphone-4'
 DEVICE_TYPES = [DEVICE_IPAD, DEVICE_IPHONE_4, DEVICE_IPHONE_35]
 CURRENT_DIR = os.getcwd()
+GITHUB_PROJECT_URL = u'https://github.com/chrisballinger/Off-the-Record-iOS'
 
 localizations = []
 appstore_descriptions = {}
@@ -78,10 +80,13 @@ def parse_localizations():
         stringsets[localization] = strings
         description = u""
         for i, string in enumerate(strings):
+            value = unicode(string['value'])
             if i == 0:
-                appstore_titles[localization] = unicode(string['value'])
+                appstore_titles[localization] = value
             else:
-                description = description + u'\n' + unicode(string['value'])
+                if u'github' in value.lower():
+                    value = value + u' ' + GITHUB_PROJECT_URL
+                description = description + u'\n' + value
         appstore_descriptions[localization] = description
 
 def key_for_device_type(device_type):
@@ -130,7 +135,10 @@ def generate_yaml():
 
     for localization in localizations:
         new_locale = copy.deepcopy(english_locale)
-        new_locale['name'] = localization
+        name = localization
+        if '_' in localization:
+            name = localization.replace('_', '-') 
+        new_locale['name'] = name
         new_locale['title'] = appstore_titles[localization]
         new_locale['description'] = appstore_descriptions[localization]
         new_locale['screenshots'] = screenshots_for_language(localization)
@@ -138,17 +146,22 @@ def generate_yaml():
 
     template['versions'][0]['locales'] = new_locales
 
-    if not os.path.exists(OUTPUT_DIR):
-        os.mkdir(OUTPUT_DIR)
-
     output_file_path = os.path.join(OUTPUT_DIR, METADATA_TEMPLATE)
 
     output_file = file(output_file_path, 'w')
     yaml.safe_dump(template, output_file, default_flow_style=False, allow_unicode=True, indent=True)
 
 if __name__ == '__main__':
+    if not os.path.exists(OUTPUT_DIR):
+        print 'Creating build directory'
+        os.mkdir(OUTPUT_DIR)
+    print 'Copying screenshots to build dir'
     load_all_screenshots()
-    #print screenshots
+    print 'Parsing .strings files'
     parse_localizations()
+    print 'Generating metadata.yaml'
     generate_yaml()
+    print 'Creating .itmsp file'
+    os.chdir(OUTPUT_DIR)
+    subprocess.call(['itmsp', 'package', '-i', METADATA_TEMPLATE])
     print 'All done!'

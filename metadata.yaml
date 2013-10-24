@@ -44,8 +44,18 @@ versions:
           - message
           - xmpp
         version_whats_new: |+
-          Updated all the stuff.
-          
+          - Bug Fixes
+          - Security improvements
+          - Support for iOS 7
+          - Added OAuth Support for Google & Facebook
+          - Fixes for Facebook login (now requires OAuth)
+          - Updated localizations
+          - Asynchronous OTR private key generation
+          - Replace Crittercism with HockeySDK for opt-in crash reporting 
+
+          Note: For Google and Facebook accounts you'll need to reauthorize using OAuth instead of username & password.
+
+          Full changelog: https://github.com/chrisballinger/Off-the-Record-iOS/compare/v2.0.1...v2.1
         software_url: 'https://chatsecure.org'
         privacy_url: 'https://chatsecure.org/privacy'
         support_url: 'https://github.com/chrisballinger/Off-the-Record-iOS/issues'
