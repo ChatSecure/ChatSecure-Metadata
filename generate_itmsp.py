@@ -113,7 +113,10 @@ def parse_localizations():
             else:
                 if u'github' in value.lower():
                     value = value + u' ' + GITHUB_PROJECT_URL
-                description = description + u'\n' + value
+                if i == 1:
+                    description = value
+                else:
+                    description = description + u'\n' + value
         appstore_descriptions[localization] = description
 
 def key_for_device_type(device_type):
@@ -190,6 +193,7 @@ def generate_yaml():
         new_locale['title'] = appstore_titles[localization]
         new_locale['description'] = appstore_descriptions[localization]
         new_locale['screenshots'] = screenshots_for_language(localization)
+        #new_locale['version_whats_new'] = new_locale['version_whats_new'] # how do we fix the broken linebreaks?
         if completed_languages.get(name, None) is None:
             print 'Adding metadata for ' + name + ' / ' + localization
             completed_languages[name] = name
