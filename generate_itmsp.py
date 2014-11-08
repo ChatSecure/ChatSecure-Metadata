@@ -44,9 +44,11 @@ SCREENSHOTS_DIR = 'screenshots'
 DEVICE_IPAD = 'ipad'
 DEVICE_IPHONE_35 = 'iphone-3.5'
 DEVICE_IPHONE_4 = 'iphone-4'
-DEVICE_TYPES = [DEVICE_IPAD, DEVICE_IPHONE_4, DEVICE_IPHONE_35]
+DEVICE_IPHONE_47 = 'iphone-4.7'
+DEVICE_IPHONE_55 = 'iphone-5.5'
+DEVICE_TYPES = [DEVICE_IPAD, DEVICE_IPHONE_4, DEVICE_IPHONE_35, DEVICE_IPHONE_47, DEVICE_IPHONE_55]
 CURRENT_DIR = os.getcwd()
-GITHUB_PROJECT_URL = u'https://github.com/chrisballinger/Off-the-Record-iOS'
+GITHUB_PROJECT_URL = u'https://github.com/chrisballinger/ChatSecure-iOS'
 
 localizations = []
 appstore_descriptions = {}
@@ -126,6 +128,10 @@ def key_for_device_type(device_type):
         return 'iphone_4in'
     elif device_type is DEVICE_IPHONE_35:
         return 'iphone_3.5in'
+    elif device_type is DEVICE_IPHONE_47:
+        return 'iphone_4.7in'
+    elif device_type is DEVICE_IPHONE_55:
+        return 'iphone_5.5in'
     return None
 
 def screenshots_for_language(language_code=None):

@@ -3,29 +3,28 @@ team_id: 4T8JLQR6GR # optional if provider is supplied
 vendor_id: chatsecure # the application's SKU as defined in iTunes Connect 
 id_prefix: com.chrisballinger.ChatSecure. # if supplied, this will be prefixed to achievement, leaderboard, and in-app purchase IDs
 versions:
-  - name: 2.1
+  - name: 3.0
     locales:
       - name: en-US
-        title: "ChatSecure: Encrypted, Secure Multiprotocol Chat and Instant Messaging (Google Talk, XMPP, OSCAR)"
+        title: "ChatSecure - Open Source Encrypted Messenger"
         description: |+
           Free unlimited messaging with your friends over Facebook Chat, GChat & more! Works with iPhone, Mac, Linux or PC and mobile devices.
 
           • COMPLETELY FREE, UNLIMITED MESSAGING: No charges, ever. Chat all day with your friends across the street or across the ocean.
           • CHAT WITH ANYONE, ANYWHERE: Chat with your friends on GChat, Facebook Chat, VKontakte, Yandex, Hyves, Odnoklassniki.Ru, StudiVZ, Livejournal, Jabber, and more!
-          • WORKS ON EVERY PLATFORM: iPhone with ChatSecure, Gibberbot on other mobile devices, Mac with Adium, Linux with Jitsi, Windows with Pidgin, and more!
+          • WORKS ON EVERY PLATFORM: ChatSecure on mobile, Mac with Adium, Linux with Jitsi, Windows with Pidgin, and more!
           • UNBEATABLE PRIVACY: We keep your messages 100% private using state of the art Off-The-Record (OTR) encryption. Your conversations cannot be logged or intercepted by anyone. NOTE: These security measures only apply when your friend uses a compatible client like ChatSecure, Gibberbot, Adium or Pidgin.
           • NO SNOOPING: Your connection is encrypted so nobody can spy on your conversation. And the message history is cleared out every time the app closes, just in case. 
           • AUTOMATICALLY ADDS YOUR CONTACTS: When you login with any account, including GTalk/GChat and Facebook, your contacts and groups are added immediately.
-          • FUN BUILT-IN: Your friends get cute personal icons!
           • CHAT ON ANY SCREEN: iPhone or iPad? We’ve got you covered.
           • AD-FREE: We want your love, not your money.
           • WE SPEAK YOUR LANGUAGE: ChatSecure is available for friends who speak: Arabic (العربية), Catalan, Chinese (中文简体), English, German (Deutsch), Hebrew (עִבְרִית), Italian (Italiano), Portuguese (Português), Russian (Русский), Spanish (Español), Swedish (Svensk), Tibetan, Turkish (Türkçe), and Vietnamese (Tiếng Việt). Don’t see your language? Join us and help translate the app https://www.transifex.com/projects/p/chatsecure/ 
 
           *Learn More*
-          • ABOUT US: ChatSecure is an open source project. We’re parnters with The Guardian Project is a group of developers that make secure mobile apps and open-source code for a better tomorrow.
-          • OUR WEBSITES: https://chatsecure.org/ & https://GuardianProject.info 
+          • ABOUT US: ChatSecure is an open source project. We’re parnters with The Guardian Project, a group of developers that make secure mobile apps and open-source code for a better tomorrow.
+          • OUR WEBSITES: https://chatsecure.org/ & https://guardianproject.info 
           • ON TWITTER: https://twitter.com/chatsecure & https://twitter.com/guardianproject
-          • OPEN-SOURCE: ChatSecure is free software. You can take a look at our source code, or join the community to help make ChatSecure even better https://github.com/chrisballinger/Off-the-Record-iOS.
+          • OPEN-SOURCE: ChatSecure is free software. You can take a look at our source code, or join the community to help make ChatSecure even better https://github.com/chrisballinger/ChatSecure-iOS.
           • MESSAGE US: Are we missing your favorite feature? Found an annoying bug? Please tell us! We’d love to hear from you. Send us an email: support@chatsecure.org or add to our feature request forum https://chatsecure.uservoice.com 
 
           ***Disclaimer***
@@ -37,28 +36,24 @@ versions:
           - encrypt
           - jabber
           - gtalk
-          - free
-          - chat secure
+          - sqlcipher
           - facebook
           - gchat
           - message
           - xmpp
+          - otr
+          - tor
         version_whats_new: |+
-          - Bug Fixes
-          - Security improvements
-          - Support for iOS 7
-          - Added OAuth Support for Google & Facebook
-          - Fixes for Facebook login (now requires OAuth)
-          - Updated localizations
-          - Asynchronous OTR private key generation
-          - Replace Crittercism with HockeySDK for opt-in crash reporting 
+          ## Version 3.0 
+          * Message archiving with SQLCipher support
+          * Tor support for XMPP
+          * XMPP account creation
+          * Updated UI for iOS 8 and new iPhones
+          * Major internal refactoring
 
-          Note: For Google and Facebook accounts you'll need to reauthorize using OAuth instead of username & password.
-
-          Full changelog: https://github.com/chrisballinger/Off-the-Record-iOS/compare/v2.0.1...v2.1
         software_url: 'https://chatsecure.org'
         privacy_url: 'https://chatsecure.org/privacy'
-        support_url: 'https://github.com/chrisballinger/Off-the-Record-iOS/issues'
+        support_url: 'https://github.com/chrisballinger/ChatSecure-iOS/issues'
         screenshots:
           iphone_4in:
             - 'en-iphone5-ChatLog.png'
