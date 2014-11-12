@@ -28,7 +28,11 @@ Activate your virtual environment if it isn't already and run `generate_itmsp.py
 	$ workon metadata
     (metadata)$ python generate_itmsp.py
     
+Sometimes the `metadata.xml` file inside your itmsp file will be empty and require you to copy over the proper one manually.
+    
 # Uploading metadata to iTunes Connect
+
+iTMSTransporter is probably the worst piece of software Apple has ever written. If it hangs "updating" itself forever, just give up and try again later.
 
 To check out your existing metadata for an app:
 
