@@ -59,20 +59,21 @@ screenshots = {}
 def load_screenshots(language_name=None, device_type=None):
     device_screens = screenshots.get(device_type, {})
     
-    screens_path = os.path.join(SCREENSHOTS_DIR, device_type, language_name)
+    screens_path = os.path.join(SCREENSHOTS_DIR, language_name)
     contents = os.listdir(screens_path)
     screenshot_paths = []
+    filename_prefix = filename_prefix_for_device_type(device_type)
 
     for filename in contents:
-        if '.png' in filename:
+        if '.png' in filename and filename_prefix in filename:
             file_path = os.path.join(screens_path, filename)
             screenshot_paths.append(file_path)
     device_screens[language_name] = screenshot_paths
 
     screenshots[device_type] = device_screens
 
-def load_device_screenshot_languages(device_type=None):
-    device_path = os.path.join(SCREENSHOTS_DIR, device_type)
+def load_device_screenshot_languages():
+    device_path = os.path.join(SCREENSHOTS_DIR)
 
     contents = os.listdir(device_path)
     languages = []
@@ -87,7 +88,7 @@ def load_device_screenshot_languages(device_type=None):
 def load_all_screenshots():
     device_types = {}
     for DEVICE_TYPE in DEVICE_TYPES:
-        device_types[DEVICE_TYPE] = load_device_screenshot_languages(DEVICE_TYPE)
+        device_types[DEVICE_TYPE] = load_device_screenshot_languages()
 
     for device_type in device_types.keys():
         languages = device_types[device_type]
@@ -134,6 +135,19 @@ def key_for_device_type(device_type):
         return 'iphone_5.5in'
     return None
 
+def filename_prefix_for_device_type(device_type):
+    if device_type is DEVICE_IPAD:
+        return 'iOS-iPad___landscape___'
+    elif device_type is DEVICE_IPHONE_35:
+        return 'iPhone4___portrait___'
+    elif device_type is DEVICE_IPHONE_4:
+        return 'iPhone5___portrait___'
+    elif device_type is DEVICE_IPHONE_47:
+        return 'iPhone6___portrait___'
+    elif device_type is DEVICE_IPHONE_55:
+        return 'iPhone6Plus___portrait___'
+    return None
+
 def screenshots_for_language(language_code=None):
     language_screens = {}
     for DEVICE_TYPE in DEVICE_TYPES:
@@ -149,7 +163,7 @@ def screenshots_for_language(language_code=None):
             screens_for_language = screens_for_type.get('en')
         file_names = []
         for screen_path in screens_for_language:
-            file_name = os.path.basename(screen_path)
+            file_name = language_code + '-' + os.path.basename(screen_path)
             file_names.append(file_name)
             input_path = os.path.join(CURRENT_DIR, screen_path)
             output_path = os.path.join(CURRENT_DIR, OUTPUT_DIR, file_name)
