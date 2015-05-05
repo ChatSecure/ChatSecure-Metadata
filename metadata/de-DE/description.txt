@@ -1,0 +1,13 @@
+ChatSecure ist eine freie und quelloffene Kurznachrichten-App, die OTR-Verschlüsselung über XMPP verfügt. Sie können zu einem vorhandenen Google-Konto verbinden, neue Konten auf öffentlichen XMPP-Servern erstellen (auch über Tor) oder sogar eine Verbindung zu Ihrem eigenen Server für zusätzliche Sicherheit herstellen.
+
+Im Gegensatz zu anderen Anwendungen, ist ChatSecure vollständig interoperabel mit anderen Programmen, OTR und XMPP werden genauso unterstützt wie auch Adium, Jitsi und andere.
+
+ChatSecure verwendet nur bekannte quelloffene kryptographische Bibliotheken, um Ihre Unterhaltungen privat zu halten. Andere Apps können Behauptungen über Sicherheit eines militärischen Grades aufstellen, aber ohne öffentlich überprüfbaren Quellcode und überprüfbare Ende-zu-Ende-Verschlüsselung, kann man nicht wirklich sicher sein.
+
+* XMPP mit TLS-Zertifikatfestlegung.
+* OTR für nachweisliche Ende-zu-Ende-Verschlüsselung und vorwärts gerichtete Geheimhaltung.
+* Tor, um einschränkende Firewalls zu umgehen.
+* SQLCipher, um lokal Gesprächsprotokolle zu verschlüsseln.
+* Frei und quelloffen: https://github.com/chatsecure/chatsecure-ios
+
+Folgen Sie @ChatSecure auf Twitter: https://twitter.com/chatsecure

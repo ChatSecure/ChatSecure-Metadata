@@ -1,0 +1,8 @@
+# Version 3.1
+
+* Media messaging via OTRDATA
+* Media storage inside IOCipher container
+* Better UX for connection status
+* Bug fixes
+* Tor 0.2.6.7, OpenSSL 1.0.2a, Libevent 2.0.22-stable
+* Removes Facebook support (sorry!) - https://developers.facebook.com/docs/chat

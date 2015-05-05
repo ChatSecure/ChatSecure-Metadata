@@ -1,0 +1,8 @@
+ChatSecure是一款开放源代码的加密通讯程序，采用密码朋克的Off-the-Record协议来为Google Talk、Jabber或AIM等提供安全的通讯渠道。
+通过Github联络我! https://github.com/chrisballinger/ChatSecure-iOS
+支持多协议的聊天
+ChatSecure 支持多种即时通讯软件。
+强加密
+ChatSecure利用Off-the-Record库为加密通讯提供了坚实的基础。
+兼容
+您可以通过ChatSecure与Adium或Pidgin用户安全地聊天。

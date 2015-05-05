@@ -1,0 +1,8 @@
+ChatSecure là một ứng dụng tin nhắn nguồn mở có mã hóa dùng giao thức Off-the-Reocrd của Cypherpunks để bảo vệ kênh thông tin qua các giao thức XMPP (Google Talk, Jabber, v.v...) hoặc Oscar (AIM).
+Mở nguồn mới trên Github! https://github.com/chrisballinger/ChatSecure-iOS
+Chat đa giao thức
+ChatSecure dùng được với các tài khoản XMPP và AIM
+Mã hóa mạnh
+Thư viện phần mềm Off-the-Record cung cấp nền tảng vững chắc cho việc thông tin có mã hóa.
+Tương hợp
+Bạn có thể chat an toàn với các ứng dụng khác như Adium hay Pidgin.

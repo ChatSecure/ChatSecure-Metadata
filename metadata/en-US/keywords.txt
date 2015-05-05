@@ -1,0 +1,10 @@
+secure
+chat
+im
+jabber
+gtalk
+gchat
+message
+xmpp
+otr
+tor

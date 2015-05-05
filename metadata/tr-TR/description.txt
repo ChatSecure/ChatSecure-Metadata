@@ -1,0 +1,8 @@
+ChatSecure XMPP(Google Talk, Jabber, vb) yada Oscar (AIM) üzerindeki bir iletişim kanalını Cypherpunkların kullandığı kayıt dışı protokolü kullanarak güvenli hale getiren açık kaynak kodlu şifreli mesajlaşma uygulamasıdır.
+Github'da beni takip et! https://github.com/chrisballinger/ChatSecure-iOS
+Çok Protokollü Sohbet
+ChatSecure hem XMPP hem de AIM hesapları ile çalışır.
+Güçlü Şifreleme
+Kayıt yapmaya müsade etmeyen yazılım kitaplığı şifreli iletişim için güçlü bir temel sağlar.
+Uyumlu
+Adium yada Pidgin gibi diğer programlar ile güvenli sohbet yapabilirsiniz.

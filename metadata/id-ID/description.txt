@@ -1,0 +1,8 @@
+ChatSecure adalah aplikasi percakapan tersandi yang open-source, yang menggunakan Off-the-Record protokolnya Cypherpunks untuk mengamankan saluran komunikasi lewat XMPP (Google Talk, Jabber, etc) atau Oscar (AIM).
+Fork saya di Github! https://github.com/chrisballinger/ChatSecure-iOS
+Percakapan Multiprotokol
+ChatSecure dapat bekerja dengan akun XMPP maupun AIM.
+Enkripsi Kuat
+Off-the-Record library menyediakan dasar yang kuat untuk komunikasi tersandi.
+Kompatibel
+Anda dapat bercakap dengan aman dengan program-program lain seperti Adium atau Pidgin.

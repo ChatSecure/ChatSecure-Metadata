@@ -1,0 +1,8 @@
+ChatSecureは、XMPP(Google Talk, Jabberなど)やOscar(AIM)上の通信路をCypherpunksのOff-the-Recordプロトコルを利用して安全なものとする、暗号化されたメッセージの送信を行うオープンソースなアプリケーションです。
+Githubでフォークしませんか？ https://github.com/chrisballinger/ChatSecure-iOS
+複数プロトコル対応チャット
+ChatSecureは、XMPPとAIMアカウントとのどちらでもで動きます。
+強力な暗号化
+暗号化されたコミュニケーションのための盤石な基盤を、Off-the-Recordライブラリが提供します。
+互換性
+AdiumやPidginのような他のプログラムでも安全にチャットが楽しめます。

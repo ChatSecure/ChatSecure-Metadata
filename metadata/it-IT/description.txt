@@ -1,0 +1,8 @@
+ChatSecure è un'applicazione di messaggistica crittografata open-source che utilizza il protocollo Off-the-Record di Cypherpunks per garantire un canale di comunicazione su XMPP (Google Talk, Jabber, ecc) o Oscar (AIM).
+Seguimi su Github! https://github.com/chrisballinger/ChatSecure-iOS
+Chat Multi-protocollo
+ChatSecure funziona sia con account XMPP che AIM.
+Crittografia
+La libreria Off-the-Record fornisce una solida base per la comunicazione crittografata.
+Compatibile
+Puoi chattare in modo sicuro con gli altri programmi come Adium o Pidgin.

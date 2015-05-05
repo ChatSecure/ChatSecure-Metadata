@@ -1,0 +1,8 @@
+ChatSecure это мультипротокольный IM-клиент с открытым исходным кодом, использующий протокол Cypherpunks' Off-the-Record для шифрования соединения поверх XMPP (Google Talk, Jabber, и т.д.) и Oscar (AIM)
+Fork me on Github! https://github.com/chrisballinger/ChatSecure-iOS
+Мультипротокольный чат
+ChatSecure работает с учетными записями XMPP и AIM 
+Сильное шифрование
+Библиотека Off-the-Record обеспечивает шифрованное соединение.
+Совместимо
+Вы можете безопасно общаться с пользователями других программ, таких как Adium или Pidgin.
