@@ -12,4 +12,4 @@ lang_map = el:el-GR, de:de-DE, nl_NL:nl-NL
 source_lang = en_US
 source_file = metadata/en-US/title.txt
 file_filter = metadata/<lang>/title.txt
-lang_map = el:el-GR, de:de-DE, nl_BE:nl-NL
+lang_map = el:el-GR, de:de-DE, nl_NL:nl-NL
