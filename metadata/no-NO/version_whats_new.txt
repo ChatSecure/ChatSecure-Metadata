@@ -1,8 +1,6 @@
-# Version 3.1
+# Version 3.1.2
 
-* Media messaging via OTRDATA
-* Media storage inside IOCipher container
-* Better UX for connection status
 * Bug fixes
-* Tor 0.2.6.7, OpenSSL 1.0.2a, Libevent 2.0.22-stable
-* Removes Facebook support (sorry!) - https://developers.facebook.com/docs/chat
+* Translation updates
+* Tor 0.2.6.10
+* Changelog: https://github.com/ChatSecure/ChatSecure-iOS/compare/v3.1.1...v3.1.2

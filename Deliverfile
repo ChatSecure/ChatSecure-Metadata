@@ -17,7 +17,7 @@ default_language "en"
 # beta_ipa "./app.ipa"
 
 # The version of your app - remove this if you provide an ipa file
-version "3.1"
+version "3.1.2"
 
 ###################### More Options ######################
 # If you want to have even more control, check out the documentation
