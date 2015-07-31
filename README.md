@@ -38,6 +38,8 @@ New languages on Transifex will need to be [manually mapped](http://docs.transif
 
     $ nano .tx/config
     
+Available Languages Codes: https://github.com/KrauseFx/deliver#available-language-codes
+    
     
 # Updating What's New
     

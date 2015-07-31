@@ -1,8 +1,13 @@
-ChatSecure XMPP(Google Talk, Jabber, vb) yada Oscar (AIM) üzerindeki bir iletişim kanalını Cypherpunkların kullandığı kayıt dışı protokolü kullanarak güvenli hale getiren açık kaynak kodlu şifreli mesajlaşma uygulamasıdır.
-Github'da beni takip et! https://github.com/chrisballinger/ChatSecure-iOS
-Çok Protokollü Sohbet
-ChatSecure hem XMPP hem de AIM hesapları ile çalışır.
-Güçlü Şifreleme
-Kayıt yapmaya müsade etmeyen yazılım kitaplığı şifreli iletişim için güçlü bir temel sağlar.
-Uyumlu
-Adium yada Pidgin gibi diğer programlar ile güvenli sohbet yapabilirsiniz.
+ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. You can connect to an existing Google account, create new accounts on public XMPP servers (including via Tor), or even connect to your own server for extra security.
+
+Unlike other apps that keep you stuck in their walled garden, ChatSecure is fully interoperable with other clients that support OTR and XMPP, such as Adium, Jitsi, and more.
+
+ChatSecure only uses well-known open source cryptographic libraries to keep your conversations private. Other apps may make claims about 'military grade' security but, without publicly auditable source code and verifiable end-to-end encryption, you cannot be truly safe.
+
+* XMPP with TLS certificate pinning.
+* OTR for verifiable end-to-end encryption and forward secrecy.
+* Tor to help bypass restrictive firewalls.
+* SQLCipher to locally encrypt conversation logs.
+* Free and Open Source: https://github.com/chatsecure/chatsecure-ios
+
+Follow @ChatSecure on Twitter: https://twitter.com/chatsecure

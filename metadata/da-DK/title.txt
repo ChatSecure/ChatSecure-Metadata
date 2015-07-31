@@ -1,1 +1,1 @@
-ChatSecure - Encrypted Messenger
+ChatSecure - Krypteret chat program

@@ -1,8 +1,13 @@
-ChatSecure là một ứng dụng tin nhắn nguồn mở có mã hóa dùng giao thức Off-the-Reocrd của Cypherpunks để bảo vệ kênh thông tin qua các giao thức XMPP (Google Talk, Jabber, v.v...) hoặc Oscar (AIM).
-Mở nguồn mới trên Github! https://github.com/chrisballinger/ChatSecure-iOS
-Chat đa giao thức
-ChatSecure dùng được với các tài khoản XMPP và AIM
-Mã hóa mạnh
-Thư viện phần mềm Off-the-Record cung cấp nền tảng vững chắc cho việc thông tin có mã hóa.
-Tương hợp
-Bạn có thể chat an toàn với các ứng dụng khác như Adium hay Pidgin.
+ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. You can connect to an existing Google account, create new accounts on public XMPP servers (including via Tor), or even connect to your own server for extra security.
+
+Unlike other apps that keep you stuck in their walled garden, ChatSecure is fully interoperable with other clients that support OTR and XMPP, such as Adium, Jitsi, and more.
+
+ChatSecure only uses well-known open source cryptographic libraries to keep your conversations private. Other apps may make claims about 'military grade' security but, without publicly auditable source code and verifiable end-to-end encryption, you cannot be truly safe.
+
+* XMPP with TLS certificate pinning.
+* OTR for verifiable end-to-end encryption and forward secrecy.
+* Tor to help bypass restrictive firewalls.
+* SQLCipher to locally encrypt conversation logs.
+* Free and Open Source: https://github.com/chatsecure/chatsecure-ios
+
+Follow @ChatSecure on Twitter: https://twitter.com/chatsecure
