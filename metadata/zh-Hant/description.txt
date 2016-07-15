@@ -1,0 +1,13 @@
+ChatSecure是一个基于XMPP的免费开源实时消息框架，它集成了OTR即时通讯加密保护协议，你可以使用Google账户或者创建自己的新账户来登录公开的XMPP服务器(包括通过Tor)，甚至可以连接你自己的XMPP服务器来获得更安全的通信服务。
+
+Unlike other apps that keep you stuck in their walled garden, ChatSecure is fully interoperable with other clients that support OTR and XMPP, such as Adium, Jitsi, and more.
+
+ChatSecure only uses well-known open source cryptographic libraries to keep your conversations private. Other apps may make claims about 'military grade' security but, without publicly auditable source code and verifiable end-to-end encryption, you cannot be truly safe.
+
+* XMPP with TLS certificate pinning.
+* OTR for verifiable end-to-end encryption and forward secrecy.
+* Tor to help bypass restrictive firewalls.
+* SQLCipher to locally encrypt conversation logs.
+免费开源项目：https://github.com/chatsecure/chatsecure-ios
+
+在Twitter上关注我们：@ChatSecure https://twitter.com/chatsecure

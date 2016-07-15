@@ -1,0 +1,11 @@
+v3.2.3 changes:
+* XMPP push for supported servers (XEP-0357)
+* Improved subscription requests UI
+* Basic vCard nickname support
+* Fix issues with missing messages during stale OTR sessions
+* Improved IPv6 support for NAT64/DNS64
+* Fix some issues with presence/availability
+* Added button to view your password
+* Fix issue where message view would appear multiple times
+* Automatically start OTR sessions when contact is online
+* Send error messages back to contact when messages cannot be decrypted

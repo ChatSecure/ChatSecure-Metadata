@@ -1,7 +1,7 @@
 ###################### App Metadata ######################
 # Update the app description and metadata in the ./metadata folder
 
-default_language "en"
+# default_language "en"
 
 ###################### Screenshots ######################
 # Store all screenshots in the ./screenshots folder separated
@@ -17,16 +17,19 @@ default_language "en"
 # beta_ipa "./app.ipa"
 
 # The version of your app - remove this if you provide an ipa file
-version "3.1.2"
+app_version "3.2.3"
+submit_for_review false
+skip_binary_upload true
+skip_screenshots true
 
 ###################### More Options ######################
 # If you want to have even more control, check out the documentation
 # https://github.com/KrauseFx/deliver/blob/master/Deliverfile.md
 
-skip_pdf true
+# skip_pdf true
 
 ###################### Automatically generated ######################
 # Feel free to remove the following lines if you use fastlane
 
 app_identifier "com.chrisballinger.ChatSecure" # The bundle identifier of your app
-apple_id "464200063" # This is NOT your Apple login ID, but the App ID of your app
+# apple_id "464200063" # This is NOT your Apple login ID, but the App ID of your app

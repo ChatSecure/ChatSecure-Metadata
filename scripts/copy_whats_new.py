@@ -23,7 +23,7 @@ def main():
     script_dir = os.path.dirname(__file__)
     metadata_dir = os.path.abspath(os.path.join(script_dir, os.pardir, 'metadata'))
     source_lang = 'en-US'
-    source_file_name = 'version_whats_new.txt'
+    source_file_name = 'release_notes.txt'
 
     source_file_path = os.path.abspath(os.path.join(metadata_dir, source_lang, source_file_name))
     if os.path.isfile(source_file_path) is False:

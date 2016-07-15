@@ -1,13 +1,13 @@
-ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. You can connect to an existing Google account, create new accounts on public XMPP servers (including via Tor), or even connect to your own server for extra security.
+ChatSecure é uma aplicação gratuita e de código aberto que apresenta a encriptação OTR sob XMPP. Pode ligar-se a uma conta Google existente, criar novas contas nos servidores XMPP públicos (incluindo via Tor), ou até mesmo ligar ao seu próprio servidor para segurança extra.
 
-Unlike other apps that keep you stuck in their walled garden, ChatSecure is fully interoperable with other clients that support OTR and XMPP, such as Adium, Jitsi, and more.
+Ao contrário das outras aplicações que o mantêm encravado no seu jardim murado, o ChatSecure é totalmente interoperável com outros clientes que suportem OTR e XMPP, tais como Adium, Jitsi, e muito mais.
 
-ChatSecure only uses well-known open source cryptographic libraries to keep your conversations private. Other apps may make claims about 'military grade' security but, without publicly auditable source code and verifiable end-to-end encryption, you cannot be truly safe.
+ChatSecure utiliza apenas as bibliotecas criptográficas de código fonte para manter suas as conversas privadas. As outras aplicações poderão alegar sobre a segurança de "grau militar" mas, sem o código fonte auditável publicamente e a encriptação extremidade-a-extremidade verificável, não pode estar verdadeiramente seguro.
 
-* XMPP with TLS certificate pinning.
-* OTR for verifiable end-to-end encryption and forward secrecy.
-* Tor to help bypass restrictive firewalls.
-* SQLCipher to locally encrypt conversation logs.
-* Free and Open Source: https://github.com/chatsecure/chatsecure-ios
+* XMPP com fixação de certificado TLS.
+* OTR para encriptação extremidade-a-extremidade verificável e encaminhar secretamente.
+* Tor para ajudar a contornar as firewalls restritivas.
+* SQLCipher para encriptar localmente os registos de conversação.
+* Livre e de Código Aberto: https://github.com/chatsecure/chatsecure-ios
 
-Follow @ChatSecure on Twitter: https://twitter.com/chatsecure
+Siga o @ChatSecure no Twitter: https://twitter.com/chatsecure

@@ -1,6 +1,0 @@
-# Version 3.1.2
-
-* Bug fixes
-* Translation updates
-* Tor 0.2.6.10
-* Changelog: https://github.com/ChatSecure/ChatSecure-iOS/compare/v3.1.1...v3.1.2
