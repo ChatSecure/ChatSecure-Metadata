@@ -1,1 +1,1 @@
-https://github.com/chrisballinger/ChatSecure-iOS/issues
+https://github.com/ChatSecure/ChatSecure-iOS/issues

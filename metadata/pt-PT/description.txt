@@ -6,6 +6,7 @@ ChatSecure utiliza apenas as bibliotecas criptográficas de código fonte para m
 
 * XMPP com fixação de certificado TLS.
 * OTR para encriptação extremidade-a-extremidade verificável e encaminhar secretamente.
+* OMEMO for a mobile-friendly alternative to OTR.
 * Tor para ajudar a contornar as firewalls restritivas.
 * SQLCipher para encriptar localmente os registos de conversação.
 * Livre e de Código Aberto: https://github.com/chatsecure/chatsecure-ios

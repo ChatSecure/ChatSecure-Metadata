@@ -32,8 +32,6 @@ function captureLocalizedScreenshot(name) {
       model = "iPhone6";
     } else if (theSize == 568){
       model = "iPhone5";
-    } else {
-    model = "iPhone4";
     }
   } 
   else 

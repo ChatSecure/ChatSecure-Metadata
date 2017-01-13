@@ -17,9 +17,10 @@
 # beta_ipa "./app.ipa"
 
 # The version of your app - remove this if you provide an ipa file
-app_version "3.2.3"
+app_version "4.0"
 submit_for_review false
 skip_binary_upload true
+# overwrite_screenshots true
 skip_screenshots true
 
 ###################### More Options ######################

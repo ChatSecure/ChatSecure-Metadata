@@ -6,6 +6,7 @@ ChatSecure använder bara välkända kryptografiska bibliotek med öppen källko
 
 * XMPP med TLS-certifikat pinning.
 * OTR för end-to-end kryptering som kan verifieras och framåtsekretess.
+* OMEMO for a mobile-friendly alternative to OTR.
 * Tor för att hjälpa till att kringgå restriktiva brandväggar.
 * SQLCipher för att kryptera konversationsloggar lokalt.
 Gratis och öppen källkod: https://github.com/chatsecure/chatsecure-ios

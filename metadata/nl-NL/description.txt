@@ -6,6 +6,7 @@ ChatSecure gebruikt enkel bekende open source cryptografische bibliotheken om je
 
 * XMPP met TLS-certificaat-pinning.
 * OTR voor verifieerbare eind-naar-eind-versleuteling en forward secrecy.
+* OMEMO for a mobile-friendly alternative to OTR.
 * Tor om te helpen inperkende firewalls te omzeilen.
 * SQLCipher om lokaal conversaties versleuteld op te slaan
 * Gratis en Open Source: https://github.com/chatsecure/chatsecure-ios

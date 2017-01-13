@@ -1,10 +1,1 @@
-secure
-chat
-im
-jabber
-gtalk
-gchat
-message
-xmpp
-otr
-tor
+secure,chat,im,encrypt,signal,telegram,message,xmpp,otr,tor,secret,omemo

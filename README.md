@@ -7,22 +7,17 @@ Various metadata for ChatSecure
 # Requirements
 You will need a recent version of Ruby. We now use [deliver](https://github.com/KrauseFx/deliver) and [snapshot](https://github.com/KrauseFx/snapshot).
 
-    $ gem install deliver
-    $ gem install snapshot
+    $ gem install fastlane
 
 # Generating Screenshots
 
-Edit the `Snapfile` and run `snapshot`.
-
-    $ snapshot
+Snapshot stuff has been moved to the main repo for now.
 
 # Uploading Metadata
 
 Edit the metadata and pull in new translations with Transifex, then run:
 
-    $ deliver --skip-deploy
-    
-This will upload new metadata and screenshots to iTC. Make sure to use the `--skip-deploy` option to prevent automatic submission to Apple.
+    $ fastlane deliver
 
 # Transifex
 

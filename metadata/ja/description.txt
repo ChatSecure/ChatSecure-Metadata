@@ -6,6 +6,7 @@ ChatSecureは、あなたの会話の秘密を守るため、広く知られた�
 
 * TLＳ certificate pinningが可能なXMPP
 * OTRにより検証可能なエンドツーエンドの暗号化と前方秘匿性を提供します
+* OMEMO for a mobile-friendly alternative to OTR.
 * Torにより制限のあるファイアウォールを抜けることができます
 * SQLCipherにより会話のログを手許で暗号化します
 * 自由でオープンソースです: https://github.com/chatsecure/chatsecure-ios

@@ -6,6 +6,7 @@
 
 * XMPP με TLS πιστοποιητικό Καρφίτσωμα.
 * OTR για επαληθεύσιμη από άκρο σε άκρο κρυπτογράφηση.
+* OMEMO for a mobile-friendly alternative to OTR.
 * Το Tor σας βοηθαει να παράκαμψετε περιοριστικά τείχη προστασίας.
 * SQLCipher για τοπική κρυπτογράφηση αρχείων καταγραφής συνομιλίας.
 * Ελεύθερο και Ανοικτού Κώδικα: https://github.com/chatsecure/chatsecure-ios

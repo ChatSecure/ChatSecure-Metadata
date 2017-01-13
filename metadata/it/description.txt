@@ -6,6 +6,7 @@ ChatSecure only uses well-known open source cryptographic libraries to keep your
 
 * XMPP with TLS certificate pinning.
 * OTR for verifiable end-to-end encryption and forward secrecy.
+* OMEMO for a mobile-friendly alternative to OTR.
 * Tor to help bypass restrictive firewalls.
 * SQLCipher to locally encrypt conversation logs.
 * Free and Open Source: https://github.com/chatsecure/chatsecure-ios

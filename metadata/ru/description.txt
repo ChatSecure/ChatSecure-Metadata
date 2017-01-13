@@ -6,6 +6,7 @@ ChatSecure использует только зарекомендовавшие 
 
 * XMPP с привязкой TLS-сертификатов
 * OTR для шифрования и прямой секретности (forward secrecy)
+* OMEMO for a mobile-friendly alternative to OTR.
 * Tor для обхода сетевых ограничений 
 * SQLCipher для локального шифрования истории переписки
 * Свободное ПО: https://github.com/chatsecure/chatsecure-ios
