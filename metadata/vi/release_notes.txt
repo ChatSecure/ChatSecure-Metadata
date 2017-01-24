@@ -1,3 +1,17 @@
+What's new in v4.0.1:
+
+* Fix pending subscription for approved contacts
+* Fix removal of pending contacts
+* Fix removing account UI update
+* Fix stream resumption for stream management (XEP-0198)
+* Improve handling of message carbons (XEP-0280)
+* Move presence info to profile screen
+* Fix possible deadlock
+* Tor 0.2.9.9
+* Update Translations (German, Spanish)
+
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0...v4.0.1
+
 What's new in v4.0:
 
 * OMEMO Encryption [1]
