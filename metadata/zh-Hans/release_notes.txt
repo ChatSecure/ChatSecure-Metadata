@@ -1,3 +1,12 @@
+What's new in v4.0.2:
+
+* Fix Pending Approval bug
+* Fix audio message 0:00 duration bug
+* Always show Compose button if you have at least one account
+* Update Translations (French)
+
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.1...v4.0.2
+
 What's new in v4.0.1:
 
 * Fix pending subscription for approved contacts
