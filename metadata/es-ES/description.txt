@@ -1,14 +1,14 @@
-ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. You can connect to an existing Google account, create new accounts on public XMPP servers (including via Tor), or even connect to your own server for extra security.
+ChatSecure es una aplicación de mensajería libre y de código abierto que presenta cifrado  OTR sobre XMPP. Puede conectar con una cuenta de Google existente, crear nuevas cuentas en servidores XMPP públicos (también mediante Tor), o incluso puede conectar con su propio servidor para tener más seguridad
 
-Unlike other apps that keep you stuck in their walled garden, ChatSecure is fully interoperable with other clients that support OTR and XMPP, such as Adium, Jitsi, and more.
+A diferencia de otras aplicaciones que le mantienen aferrado a su jardín cerrado, ChatSecure puede operar con otros clientes con soporte OTR y XMPP, como Adium, Jitsi, y otros.
 
-ChatSecure only uses well-known open source cryptographic libraries to keep your conversations private. Other apps may make claims about 'military grade' security but, without publicly auditable source code and verifiable end-to-end encryption, you cannot be truly safe.
+ChatSecure sólo usa librerías criptográficas de código abierto bien conocidas para que sus conversaciones sigan siendo privadas. Otras aplicaciones pueden hacer proclamas sobre seguridad de 'nivel militar', pero sin un código públicamente auditable y un cifrado extremo-a-extremo verificable, no puede estar realmente seguro.
 
-* XMPP with TLS certificate pinning.
-* OTR for verifiable end-to-end encryption and forward secrecy.
+* XMPP con fijación (pinning) de certificado TLS.
+* OTR para cifrado extremo-a-extremo verificable y secreto hacia delante.
 * OMEMO for a mobile-friendly alternative to OTR.
-* Tor to help bypass restrictive firewalls.
-* SQLCipher to locally encrypt conversation logs.
-* Free and Open Source: https://github.com/chatsecure/chatsecure-ios
+* Tor para ayudar a rebasar cortafuegos (firewallls) restrictivos.
+* SQLCipher para cifrar locamente los registros (logs) de conversación.
+* Libre y de código abierto: https://github.com/chatsecure/chatsecure-ios
 
-Follow @ChatSecure on Twitter: https://twitter.com/chatsecure
+Siga @ChatSecure en Twitter: https://twitter.com/chatsecure

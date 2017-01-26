@@ -1,14 +1,14 @@
-ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. You can connect to an existing Google account, create new accounts on public XMPP servers (including via Tor), or even connect to your own server for extra security.
+ChatSecure er en fri og åpen kildekode messaging app som har OTR kryptering over XMPP. Du kan koble til en eksisterende Google-konto, kan du opprette nye kontoer på offentlige XMPP-servere (inkludert via Tor), eller til og med koble til din egen server for ekstra sikkerhet.
 
-Unlike other apps that keep you stuck in their walled garden, ChatSecure is fully interoperable with other clients that support OTR and XMPP, such as Adium, Jitsi, and more.
+I motsetning til andre programmer som holder deg fast i sin inngjerdet hage, er ChatSecure fullstendig kompatible med klienter som støtter OTR og XMPP, slik som Adium, Jitsi, og mer.
 
-ChatSecure only uses well-known open source cryptographic libraries to keep your conversations private. Other apps may make claims about 'military grade' security but, without publicly auditable source code and verifiable end-to-end encryption, you cannot be truly safe.
+ChatSecure bruker bare kjente åpen kildekode kryptografiske biblioteker for å holde samtaler private. Andre apper kan gjøre påstander om "militær karakter" sikkerhet, men uten offentlig reviderbar kildekode og etterprøvbar ende-til-ende kryptering, kan du ikke være helt trygg.
 
-* XMPP with TLS certificate pinning.
-* OTR for verifiable end-to-end encryption and forward secrecy.
+* XMPP med TLS sertifikat låsing.
+* OTR for etterprøvbar ende-til-ende-kryptering og frem hemmelighold.
 * OMEMO for a mobile-friendly alternative to OTR.
-* Tor to help bypass restrictive firewalls.
-* SQLCipher to locally encrypt conversation logs.
-* Free and Open Source: https://github.com/chatsecure/chatsecure-ios
+* Tor for å hjelpe omvei restriktive brannmurer.
+* SQLCipher til lokalt kryptere samtale loggene.
+* Gratis og Åpen kilde: https://github.com/chatsecure/chatsecure-ios
 
-Follow @ChatSecure on Twitter: https://twitter.com/chatsecure
+Følg @ChatSecure på Twitter: https://twitter.com/chatsecure
