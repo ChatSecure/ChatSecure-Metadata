@@ -1,3 +1,15 @@
+What's new in v4.0.3:
+
+* Add back presence information (by popular request)
+* Improve display of nicknames
+* Show contact's JID below their nickname instead of your own
+* Removes stream resumption timeout (XEP-0198)
+* Update dependencies (includes OpenSSL 1.0.2k)
+* Update translations (Greek, Slovak)
+* Other minor bug fixes
+
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.2...v4.0.3
+
 What's new in v4.0.2:
 
 * Fix Pending Approval bug

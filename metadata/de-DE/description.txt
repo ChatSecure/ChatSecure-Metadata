@@ -6,7 +6,7 @@ ChatSecure verwendet nur bekannte quelloffene kryptographische Bibliotheken, um 
 
 * XMPP mit TLS-Zertifikatfestlegung.
 * OTR für nachweisliche Ende-zu-Ende-Verschlüsselung und vorwärts gerichtete Geheimhaltung.
-* OMEMO for a mobile-friendly alternative to OTR.
+* OMEMO für eine Handy-freundliche Alternative zu OTR.
 * Tor, um einschränkende Firewalls zu umgehen.
 * SQLCipher, um lokal Gesprächsprotokolle zu verschlüsseln.
 * Frei und quelloffen: https://github.com/chatsecure/chatsecure-ios
