@@ -27,7 +27,7 @@ To synchronize translations use Transifex's `tx` tool.
     
 This command will download all existing translations:
 
-    $ tx pull
+    $ tx pull -f
     
 New languages on Transifex will need to be [manually mapped](http://docs.transifex.com/developer/client/config) to the correct language code folder in `./metadata`. This is because the language codes in Transifex don't match up with the ones that Apple uses.
 

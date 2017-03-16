@@ -1,54 +1,12 @@
-What's new in v4.0.3:
+What's new in v4.0.4:
 
-* Add back presence information (by popular request)
-* Improve display of nicknames
-* Show contact's JID below their nickname instead of your own
-* Removes stream resumption timeout (XEP-0198)
-* Update dependencies (includes OpenSSL 1.0.2k)
-* Update translations (Greek, Slovak)
-* Other minor bug fixes
+* Added an account detail view
+* New view to help troubleshoot and fix push issues
+* View XMPP server capabilities information
+* Redesigned account cell on Settings screen
+* Fixes push notification registration on ejabberd 17.01 and Prosody 0.10
+* Refactoring to help make push registration more reliable
+* Small bug fixes
+* Now using Swift 3
 
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.2...v4.0.3
-
-What's new in v4.0.2:
-
-* Fix Pending Approval bug
-* Fix audio message 0:00 duration bug
-* Always show Compose button if you have at least one account
-* Update Translations (French)
-
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.1...v4.0.2
-
-What's new in v4.0.1:
-
-* Fix pending subscription for approved contacts
-* Fix removal of pending contacts
-* Fix removing account UI update
-* Fix stream resumption for stream management (XEP-0198)
-* Improve handling of message carbons (XEP-0280)
-* Move presence info to profile screen
-* Fix possible deadlock
-* Tor 0.2.9.9
-* Update Translations (German, Spanish)
-
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0...v4.0.1
-
-What's new in v4.0:
-
-* OMEMO Encryption [1]
-* Profile screen that shows contact's OMEMO and OTR fingerprints
-* In-app notifications on iOS 10
-* Outgoing message queue for improved reliability
-* Resend any outgoing message
-* Automatic selection of best available encryption with manual override per contact
-* TOFU (trust on first use) for OTR and OMEMO fingerprints
-* Easily share and compare OMEMO and OTR fingerprints
-* Keeps screen awake while device is plugged in and app in foreground
-* Improve reliability of audio messages
-* Slightly longer XEP-0198 timeout
-* Fixes multiple group chat bugs
-* Significantly improves database performance
-* Many more bug fixes and performance improvements [2]
-
-1. https://en.wikipedia.org/wiki/OMEMO
-2. https://github.com/chatsecure/chatsecure-ios/compare/v3.2.3...v4.0
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.3...v4.0.4

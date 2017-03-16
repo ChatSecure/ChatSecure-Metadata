@@ -6,7 +6,7 @@ ChatSecure, konuşmalarınızı gizli tutmak için sadece iyi bilinen açık kay
 
 XMPP, TLS sertifikasıyla birlikte sıkıştırır.
 İleriye doğru gizlilik ve uçtan uca doğrulanabilir şifreleme için OTR
-* OMEMO for a mobile-friendly alternative to OTR.
+OMEMO, OTR'ye mobil uyumlu bir alternatiftir.
 Tor, kısıtlayıcı güvenlik duvarlarını atlatmada yardım eder.
 SQLCipher, yerelde konuşma kayıtlarını şifrelemede yardım eder.
 Ücretsiz açık kaynak kodu: https://github.com/chatsecure/chatsecure-ios
