@@ -17,7 +17,7 @@ Snapshot stuff has been moved to the main repo for now.
 
 Edit the metadata and pull in new translations with Transifex, then run:
 
-    $ fastlane deliver
+    $ fastlane deliver --force
 
 # Transifex
 

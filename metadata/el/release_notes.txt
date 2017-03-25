@@ -1,12 +1,8 @@
-What's new in v4.0.4:
+What's new in v4.0.5:
 
-* Added an account detail view
-* New view to help troubleshoot and fix push issues
-* View XMPP server capabilities information
-* Redesigned account cell on Settings screen
-* Fixes push notification registration on ejabberd 17.01 and Prosody 0.10
-* Refactoring to help make push registration more reliable
-* Small bug fixes
-* Now using Swift 3
+* Shows notifications for incoming requests and outgoing approvals
+* Displays idle status / last activity in the title bar, for instance "Active 10 min ago".  This keeps track of the last time you interact with the app, and will report this value when queried by your contacts. The time you last interacted with the app is identical for all of your accounts, so broadcasting this value is disabled for Tor accounts and when auto-login disabled.
+* Fixes a crash when viewing your account details on iOS 8 devices
+* Fix issues with contacts that get stuck as "Pending Approval"
 
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.3...v4.0.4
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.4...v4.0.5
