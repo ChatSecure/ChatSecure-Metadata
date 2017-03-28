@@ -1,3 +1,7 @@
+What's new in v4.0.6:
+
+* Fix crash affecting iOS 8 & 9 devices
+
 What's new in v4.0.5:
 
 * Shows notifications for incoming requests and outgoing approvals
@@ -5,4 +9,5 @@ What's new in v4.0.5:
 * Fixes a crash when viewing your account details on iOS 8 devices
 * Fix issues with contacts that get stuck as "Pending Approval"
 
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.5...v4.0.6
 Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.4...v4.0.5
