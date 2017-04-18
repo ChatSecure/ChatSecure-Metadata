@@ -1,3 +1,14 @@
+What's new in v4.0.7:
+
+* Fix issue receiving short OMEMO messages from users of the Conversations app
+* Partially fix issue where invalid OMEMO bundles are published
+* Deadlock detector: If the app is frozen, please wait ~20 seconds for it to crash, then relaunch and submit a crash report.
+* Remove Dukgo from server list because their server will be shutting down soon. See https://twitter.com/cfarivar/status/852193164207063040
+* Add additional public community servers to list. Full list here: https://github.com/ChatSecure/xmpp-server-list
+* home.zom.im is now the default server for new account registrations
+* Adding/removing contacts while temporarily disconnected is more reliable
+* Update Catalan translation
+
 What's new in v4.0.6:
 
 * Fix crash affecting iOS 8 & 9 devices
@@ -9,5 +20,6 @@ What's new in v4.0.5:
 * Fixes a crash when viewing your account details on iOS 8 devices
 * Fix issues with contacts that get stuck as "Pending Approval"
 
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.6...v4.0.7
 Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.5...v4.0.6
 Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.4...v4.0.5
