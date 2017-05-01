@@ -1,14 +1,14 @@
 What's new in v4.0.8:
 
-* 🚨 DuckDuckGo is shutting down their server in early May! 🚨 If your account ends in `@dukgo.com` you need to migrate to a new server ASAP!
+* DuckDuckGo is shutting down their server in early May! If your account ends in `@dukgo.com` you need to migrate to a new server ASAP!
 * **NEW**: Account migration tool. Automatically create new account, move existing contacts, archive old conversations, and optionally notify old contacts of new account info.
 * **NEW**: Inbox / Archive. In addition to swipe-to-delete, there is now swipe-to-archive, which allows decluttering the inbox without deleting conversation history.
 * Fix a nasty bug introduced in 4.0.7 that could prevent OMEMO sessions from working. If your outgoing OMEMO messages were no longer getting delivery receipts, send some messages back and forth and it should fix the issue. When you receive an undecipherable message it will clear the session, which allows the session to be re-initiated on your next outgoing message. 
 * Improve discoverability of group chat by replacing icon with "Group Chat"
 * Join existing group chats
-* Show 📷 🔊 icons to indicate media in conversation list message preview, and show ⚠️ warning if message had an error.
+* Show icons to indicate media in conversation list message preview, and show warning if message had an error.
 * Disable deadlock detector because it was causing crashes on slower devices
-* Now available in France! 🇫🇷
+* Now available in France!
 
 What's new in v4.0.7:
 
