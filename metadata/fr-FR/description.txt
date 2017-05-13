@@ -2,7 +2,7 @@ ChatSecure est une application de messagerie instantanée libre et open source q
 
 Contrairement aux autres apps qui vous enferment dans leur écosystème, ChatSecure est totalement compatible avec les autres clients disposant du support d'OTR et de XMPP, comme Adium, Jitsi, et bien d'autres.
 
-ChatSecure utilise uniquement des librairies de chiffrement reconnues et open source, ceci afin de garder vos conversations privées. D'autres apps clâment qu'elle proposent une sécurité "de niveau militaire", mais sans code source auditable de manière publique et de chiffrement de bout en bout vérifiable, vous ne pouvez pas être réellement en sécurité.
+ChatSecure utilise uniquement des librairies de chiffrement reconnues et open source, ceci afin de garder vos conversations privées. D'autres apps clament qu'elle proposent une sécurité "de niveau militaire", mais sans code source auditable de manière publique et de chiffrement de bout en bout vérifiable, vous ne pouvez pas être réellement en sécurité.
 
 * XMPP avec épinglage de certificat TLS.
 * OTR pour un chiffrement de bout en bout vérifiable et une confidentialité persistante.

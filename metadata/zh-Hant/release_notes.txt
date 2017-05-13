@@ -1,3 +1,7 @@
+What's new in v4.0.9:
+* **NEW**: Now you can support continued development via in-app purchase. Help make developing free and open source privacy tools sustainable!
+* Partial fix for bug where keyboard covers chat area
+
 What's new in v4.0.8:
 
 * DuckDuckGo is shutting down their server in early May! If your account ends in `@dukgo.com` you need to migrate to a new server ASAP!
