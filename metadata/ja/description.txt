@@ -7,8 +7,22 @@ ChatSecureは、あなたの会話の秘密を守るため、広く知られた�
 * TLＳ certificate pinningが可能なXMPP
 * OTRにより検証可能なエンドツーエンドの暗号化と前方秘匿性を提供します
 * OMEMO for a mobile-friendly alternative to OTR.
-* Torにより制限のあるファイアウォールを抜けることができます
+* Tor integration for easy access to XMPP .onion services.
 * SQLCipherにより会話のログを手許で暗号化します
 * 自由でオープンソースです: https://github.com/chatsecure/chatsecure-ios
 
 @ChatSecureをTwitterでフォローしてください： https://twitter.com/chatsecure
+
+►► ChatSecure Donations
+Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+
+• Feel good supporting indie software
+• Continued development and updates
+• Help keep the app free for everyone
+
+To manage your subscription:
+• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
+• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
+• Payment will be charged to iTunes Account at confirmation of purchase.
+• Visit the following URL to view our Privacy Policy: https://chatsecure.org/privacy/
+• Visit the following URL for full terms of use: https://chatsecure.org/terms/

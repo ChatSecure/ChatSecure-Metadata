@@ -7,8 +7,22 @@ ChatSecure只使用了知名的开源加密库，使您的对话保持私密。�
 XMPP TLS证书锁定。
 OTR用于可验证的端到端加密和前向保密。
 OMEMO协议为了移动友好度替换为OTR。
-Tor可以帮助绕过防火墙限制。
+* Tor integration for easy access to XMPP .onion services.
 SQLCipher加密本地聊天日志。
 免费开源项目：https://github.com/chatsecure/chatsecure-ios
 
 在Twitter上关注我们：@ChatSecure https://twitter.com/chatsecure
+
+►► ChatSecure Donations
+Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+
+• Feel good supporting indie software
+• Continued development and updates
+• Help keep the app free for everyone
+
+To manage your subscription:
+• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
+• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
+• Payment will be charged to iTunes Account at confirmation of purchase.
+• Visit the following URL to view our Privacy Policy: https://chatsecure.org/privacy/
+• Visit the following URL for full terms of use: https://chatsecure.org/terms/
