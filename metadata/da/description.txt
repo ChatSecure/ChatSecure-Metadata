@@ -6,23 +6,23 @@ ChatSecure benytter velforståede Open Source kryptografi biblioteker for at hol
 
 * XMPP med TLS certifikat fastholdelse.
 * OTR for verificerbare end-to-end kryptering og fremtidssikret hemmeligholdelse.
-* OMEMO for a mobile-friendly alternative to OTR.
-* Tor integration for easy access to XMPP .onion services.
+* OMEMO som mobilvenligt alternativ til OTR.
+* Tor integration for nem adgang til XMPP .onion tjenester.
 * SQLCipher for at krypterer samtalehistorik på din iOS enhed.
 * Frit og Open Source: https://github.com/chatsecure/chatsecure-ios
 
 Følg @ChatSecure på Twitter: https://twitter.com/chatsecure
 
-►► ChatSecure Donations
-Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+►► ChatSecure donationer
+Abonner til ChatSecure for at hjælpe med at gøre udviklingen af gratis og open source privatlivsværktøjer bæredygtig. Vi glæder os over ethvert bidrag til at understøtte den igangværende udvikling. Donationsniveauerne er i øjeblikket $2.99/måndedligt, $5.99/månedligt or $19.99/månedligt. Dette får du ud af det:
 
-• Feel good supporting indie software
-• Continued development and updates
-• Help keep the app free for everyone
+• Hav det godt med at understøtte indie software
+• Fortsat udvikling og opdateringer
+• Hjælp med at holde appen gratis for alle
 
-To manage your subscription:
-• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
-• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
-• Payment will be charged to iTunes Account at confirmation of purchase.
-• Visit the following URL to view our Privacy Policy: https://chatsecure.org/privacy/
-• Visit the following URL for full terms of use: https://chatsecure.org/terms/
+For at administrere dine abonnementer:
+• Du kan slå automatisk fornyelse fra via Hovedindstillings appen: http://support.apple.com/kb/ht4098
+• Abonnementet fornyes automatisk med mindre automatisk fornyelse er slået fra, mindst 24 timer før slutningen af den igangværende periode. Der vil blive opkrævet fornyelse, på din iTunes konto, 24 timer før slutningen af den nuværende periode, hvor det samlede beløb af fornyelsen også bliver udregnet.
+• Betalingssummen vil blive trukket fra din iTunes konto idet købet er blevet bekræftet.
+• Besøg følgende URL for at se vores privatlivspolitik: https://chatsecure.org/privacy/
+• Besøg følgende URL for at se brugerbetingelser: https://chatsecure.org/terms/

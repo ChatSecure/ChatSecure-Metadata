@@ -7,22 +7,22 @@ ChatSecure sólo usa librerías criptográficas de código abierto bien conocida
 * XMPP con fijación (pinning) de certificado TLS.
 * OTR para cifrado extremo-a-extremo verificable y secreto hacia delante.
 * OMEMO para una alternativa al cifrado OTR adecuada para móvil
-* Tor integration for easy access to XMPP .onion services.
+* Integración con Tor para un fácil acceso a servicios XMPP .onion.
 * SQLCipher para cifrar locamente los registros (logs) de conversación.
 * Libre y de código abierto: https://github.com/chatsecure/chatsecure-ios
 
 Siga @ChatSecure en Twitter: https://twitter.com/chatsecure
 
-►► ChatSecure Donations
-Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+►► Donaciones a ChatSecure
+Suscríbase a ChatSecure para ayudar a hacer sostenible el desarrollo de herramientas de privacidad  libres y de código abierto. Damos la bienvenida a cualquier contribución para apoyar el desarrollo en marcha. Los niveles de donación actualmente son 2.99 $/mes, 5.99 $/mes o 19.99 $/mes. Esto es lo que obtiene a cambio:
 
-• Feel good supporting indie software
-• Continued development and updates
-• Help keep the app free for everyone
+• Sentirse bien apoyando software independiente
+• Desarrollo continuado y actualizaciones
+• Ayudar a que la aplicación siga siendo gratuita para todos 
 
-To manage your subscription:
-• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
-• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
-• Payment will be charged to iTunes Account at confirmation of purchase.
-• Visit the following URL to view our Privacy Policy: https://chatsecure.org/privacy/
-• Visit the following URL for full terms of use: https://chatsecure.org/terms/
+Para administrar su suscripción:
+• Puede desactivar la auto-renovación a través de la aplicación principal de Ajustes: http://support.apple.com/kb/ht4098
+• La suscripción se renueva automáticamente a menos que la auto-renovación sea desactivada al menos con 24 horas de antelación al final del actual periodo de suscripción. Su cuenta de iTunes recibirá un cargo por renovación en las 24 horas previas al final del actual periodo de suscripción, e identificará el coste de la renovación.
+• El pago se cargará a la cuenta de iTunes al confirmarse la compra.
+• Visite la siguiente URL para ver nuestra política de privacidad: https://chatsecure.org/privacy/
+• Visite la siguiente URL para ver las condiciones de uso completas: https://chatsecure.org/terms/
