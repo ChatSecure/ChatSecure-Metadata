@@ -1,16 +1,17 @@
 # What's new in 4.1.0
 * XEP-0363: HTTP Upload support for much faster and reliable media messaging. [1]
-* End-to-end encryption for transfers in OMEMO or OTR sessions [2].
-* Inline media previews for incoming URLs.
 * XEP-0352: Client State Indication. Helps reduce network usage when running in the background.
+* End-to-end encryption for file transfers in OMEMO or OTR sessions [2].
+* Inline media previews for incoming URLs. (Optional)
 * Bug fixes and refactoring.
+* Tor 0.3.0.9
 
 # Caveats
 * Your server administrator must enable support for XEP-0363. See mod_http_upload for Prosody [3] and ejabberd [4] for more details.
 * Encrypted file transfer is required in OMEMO/OTR, but has limited compatibility for receiving clients. Users on the other end will receive `aesgcm://` links [2].
-* Inline media previews are enabled by default, but can be disabled on a per-account basis. This setting is always disabled for Tor accounts. This feature should be disabled if you have extreme privacy concerns / do not trust your contacts.
+* Inline media previews are enabled by default, but can be disabled on a per-account basis. This feature should be disabled if you have extreme privacy concerns or do not trust your contacts. This setting is always disabled for Tor accounts.
 
-1. https://xmpp.org/extensions/xep-0363.html
+1.  https://xmpp.org/extensions/xep-0363.html
 2. https://github.com/iNPUTmice/ImageDownloader
 3. https://modules.prosody.im/mod_http_upload.html
 4. https://docs.ejabberd.im/admin/configuration/#mod-http-upload

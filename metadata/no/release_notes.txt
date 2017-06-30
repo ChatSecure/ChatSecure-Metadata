@@ -1,41 +1,20 @@
-What's new in v4.0.9:
-* **NEW**: Now you can support continued development via in-app purchase. Help make developing free and open source privacy tools sustainable!
-* Partial fix for bug where keyboard covers chat area
+# What's new in 4.1.0
+* XEP-0363: HTTP Upload support for much faster and reliable media messaging. [1]
+* XEP-0352: Client State Indication. Helps reduce network usage when running in the background.
+* End-to-end encryption for file transfers in OMEMO or OTR sessions [2].
+* Inline media previews for incoming URLs. (Optional)
+* Bug fixes and refactoring.
+* Tor 0.3.0.9
 
-What's new in v4.0.8:
+# Caveats
+* Your server administrator must enable support for XEP-0363. See mod_http_upload for Prosody [3] and ejabberd [4] for more details.
+* Encrypted file transfer is required in OMEMO/OTR, but has limited compatibility for receiving clients. Users on the other end will receive `aesgcm://` links [2].
+* Inline media previews are enabled by default, but can be disabled on a per-account basis. This feature should be disabled if you have extreme privacy concerns or do not trust your contacts. This setting is always disabled for Tor accounts.
 
-* DuckDuckGo is shutting down their server in early May! If your account ends in `@dukgo.com` you need to migrate to a new server ASAP!
-* **NEW**: Account migration tool. Automatically create new account, move existing contacts, archive old conversations, and optionally notify old contacts of new account info.
-* **NEW**: Inbox / Archive. In addition to swipe-to-delete, there is now swipe-to-archive, which allows decluttering the inbox without deleting conversation history.
-* Fix a nasty bug introduced in 4.0.7 that could prevent OMEMO sessions from working. If your outgoing OMEMO messages were no longer getting delivery receipts, send some messages back and forth and it should fix the issue. When you receive an undecipherable message it will clear the session, which allows the session to be re-initiated on your next outgoing message. 
-* Improve discoverability of group chat by replacing icon with "Group Chat"
-* Join existing group chats
-* Show icons to indicate media in conversation list message preview, and show warning if message had an error.
-* Disable deadlock detector because it was causing crashes on slower devices
-* Now available in France!
+1.  https://xmpp.org/extensions/xep-0363.html
+2. https://github.com/iNPUTmice/ImageDownloader
+3. https://modules.prosody.im/mod_http_upload.html
+4. https://docs.ejabberd.im/admin/configuration/#mod-http-upload
+5. https://xmpp.org/extensions/xep-0352.html
 
-What's new in v4.0.7:
-
-* Fix issue receiving short OMEMO messages from users of the Conversations app
-* Partially fix issue where invalid OMEMO bundles are published
-* Deadlock detector: If the app is frozen, please wait ~20 seconds for it to crash, then relaunch and submit a crash report.
-* Remove Dukgo from server list because their server will be shutting down soon. See https://twitter.com/cfarivar/status/852193164207063040
-* Add additional public community servers to list. Full list here: https://github.com/ChatSecure/xmpp-server-list
-* home.zom.im is now the default server for new account registrations
-* Adding/removing contacts while temporarily disconnected is more reliable
-* Update Catalan translation
-
-What's new in v4.0.6:
-
-* Fix crash affecting iOS 8 & 9 devices
-
-What's new in v4.0.5:
-
-* Shows notifications for incoming requests and outgoing approvals
-* Displays idle status / last activity in the title bar, for instance "Active 10 min ago".  This keeps track of the last time you interact with the app, and will report this value when queried by your contacts. The time you last interacted with the app is identical for all of your accounts, so broadcasting this value is disabled for Tor accounts and when auto-login disabled.
-* Fixes a crash when viewing your account details on iOS 8 devices
-* Fix issues with contacts that get stuck as "Pending Approval"
-
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.6...v4.0.7
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.5...v4.0.6
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.4...v4.0.5
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.0.9...v4.1.0
