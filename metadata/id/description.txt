@@ -2,7 +2,7 @@ ChatSecure adalah aplikasi perpesanan yang gratis dan terbuka dengan fitur enkri
 
 Tidak seperti aplikasi lainnya, ChatSecure dapat dioperasikan dengan klien lain yang mendukung OTR dan XMPP, seperti Adium, Jitsi, dan lainnya.
 
-ChatSecure hanya menggunakan pustaka kriptografi yang terbuka untuk menjaga privasi obrolan Anda. Aplikasi lain membuat klaim tentang keamanan 'tingkat militer' tapi, tanpa enkripsi kode sumber publisitas yang teraudit dan terverifikasi, anda tidak benar-benar aman. 
+ChatSecure hanya menggunakan pustaka kriptografi yang terbuka untuk menjaga privasi obrolan Anda. Aplikasi lain membuat klaim tentang keamanan 'tingkat militer' tapi, tanpa enkripsi kode sumber publisitas yang teraudit dan terverifikasi, anda tidak benar-benar aman.
 
 * XMPP dengan sertifikat TLS yang tersematkan.
 * OTR untuk verifikasi enkripsi dan meneruskan kerahasiaan.

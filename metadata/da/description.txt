@@ -1,6 +1,6 @@
 ChatSecure er et gratis Open Source chat app som understøtter OTR kryptering over XMPP. Du kan forbinde til en eksisterende Google konto, oprette nye konti på offentlige XMPP servere (inklusiv via Tor), eller endda forbinde til din egen server for ekstra sikkerhed.
 
-I modsætning til andre apps som holder dig fanget i deres eget lukkede ecosystem fungerer ChatSecure perfekt med andre klienter som understøtter OTR og XMPP, såsom Adium, Jitsi, og mange andre. 
+I modsætning til andre apps som holder dig fanget i deres eget lukkede ecosystem fungerer ChatSecure perfekt med andre klienter som understøtter OTR og XMPP, såsom Adium, Jitsi, og mange andre.
 
 ChatSecure benytter velforståede Open Source kryptografi biblioteker for at holde dine samtaler private. Andre apps påstår at de er "sikre nok til brug i militære og regerings formål" men uden deres kildekode kan revideres af alle kan sådanne påstande om end-to-end-kryptering ikke verificeres og du vil derfor aldrig være fuldstændig sikker.
 
