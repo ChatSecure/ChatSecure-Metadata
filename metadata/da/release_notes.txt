@@ -1,9 +1,15 @@
-# What's new in 4.2.0
-* Improved group chat reliability
-* Media sharing in group chats (unencrypted only)
-* Redesigned group participants view
-* Improve performance of chat view. Thanks @stigger!
-* Bug fixes and refactoring
-* Tor 0.3.0.11
+* Fix some crashes and odd behavior in the chat view bubbles
+* Fix crash when media URL cannot be parsed
+* Fix crash when room messages are orphaned
+* Add toggle to allow database passphrase keychain entry to be persisted in encrypted iTunes backups to allow for better experience when restoring a backup to a new device
+* Connections are more likely to be cleanly disconnected during background fetches
+* Match room occupants to contacts if possible
+* Remove UserVoice
+* Update a few dependencies
+* Show full version number at bottom of Settings
+* Move 3rd party library license and version information to Settings bundle
+* Migrate to Swift 4
+* iPhone X support
+* Now requires iOS 9 or higher
 
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.1.0...v4.2.0
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.2.0...v4.2.1
