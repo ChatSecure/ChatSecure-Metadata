@@ -10,7 +10,7 @@ def user_yes_no_query(question):
     print(question + ' [y/n]: ')
     while True:
         try:
-            response = raw_input().lower()
+            response = input().lower()
             value = strtobool(response)
             return bool(strtobool(response))
         except ValueError:

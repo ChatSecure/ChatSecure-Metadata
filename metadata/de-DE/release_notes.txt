@@ -1,15 +1,7 @@
-* Fix some crashes and odd behavior in the chat view bubbles
-* Fix crash when media URL cannot be parsed
-* Fix crash when room messages are orphaned
-* Add toggle to allow database passphrase keychain entry to be persisted in encrypted iTunes backups to allow for better experience when restoring a backup to a new device
-* Connections are more likely to be cleanly disconnected during background fetches
-* Match room occupants to contacts if possible
-* Remove UserVoice
-* Update a few dependencies
-* Show full version number at bottom of Settings
-* Move 3rd party library license and version information to Settings bundle
-* Migrate to Swift 4
-* iPhone X support
-* Now requires iOS 9 or higher
+* Message Archive Management (XEP-0313) - one-to-one and group chat history is now synchronized between multiple devices, if supported by your server.
+* Group Chat Bookmarks (XEP-0048) - Group chats are now bookmarked on your server to allow persistence between devices / installs.
+* OMEMO Group Chat Encryption - This is not yet recommended for general use and is for advanced users only. Must be globally enabled in Advanced Settings as well as individually for each group chat.
+* Improvements to general group chat user experience
+* Bug fixes and performance improvements
 
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.2.0...v4.2.1
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.2.1...v4.3.0
