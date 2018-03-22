@@ -13,16 +13,16 @@ Gratis och öppen källkod: https://github.com/chatsecure/chatsecure-ios
 
 Följ @ChatSecure på Twitter: https://twitter.com/chatsecure
 
-►► ChatSecure Donations
-Subscribe to ChatSecure to help make developing free and open source privacy tools sustainable. We welcome any contribution to support ongoing development. The donation levels are currently $2.99/month, $5.99/month or $19.99/month. Here's what you get:
+►► ChatSecure Donationer
+Prenumerera på ChatSecure för att stödja utvecklingen av fri och öppen programvara. Vi välkomnar alla bidrag. Bidragsnivåerna är $2.99/månad, $5.99/månad or $19.99/månad. Det här får du:
 
-• Feel good supporting indie software
-• Continued development and updates
-• Help keep the app free for everyone
+• Må bra av att stödja oberoende mjukvara
+• Fortsatt utveckling och uppdateringar
+• Håll appen gratis för alla
 
-To manage your subscription:
-• You can turn off auto-renewal via the main Settings app: http://support.apple.com/kb/ht4098
-• Subscription automatically renews unless auto-renew is turned off at least 24-hours before the end of the current period. Your iTunes account will be charged for renewal within 24-hours prior to the end of the current period, and identify the cost of the renewal.
-• Payment will be charged to iTunes Account at confirmation of purchase.
-• Visit the following URL to view our Privacy Policy: https://chatsecure.org/privacy/
-• Visit the following URL for full terms of use: https://chatsecure.org/terms/
+För att hantera din prenumeration:
+• Du kan stänga av automatisk förnyelse i inställningarna: http://support.apple.com/kb/ht4098
+• Prenumerationen förnyas automatiskt om inte automatisk förnyelse är avstängd minst 24 timmar före slutet av den aktuella perioden. Ditt iTunes-konto debiteras för förnyelse inom 24 timmar före slutet av den aktuella perioden och debitera kostnaden för förnyelsen.
+• Betalningen debiteras på iTunes-konto vid inköpsbekräftelse.
+• Besök följande webbadress för att se vår sekretesspolicy: https://chatsecure.org/privacy/
+• Besök följande webbadress för fullständiga användarvillkor: https://chatsecure.org/terms/
