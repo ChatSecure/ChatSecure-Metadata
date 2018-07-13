@@ -1,5 +1,8 @@
+v4.3.2:
+* Fix crash on launch when resuming downloads 
+v4.3.1:
 * Fix bug causing duplicate MAM messages
 * No longer expires the last remaining OMEMO key after it hasn't been seen for > 30 days
 * Minor bug fixes
 
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.3.0...v4.3.1
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.3.0...v4.3.2
