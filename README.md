@@ -11,13 +11,21 @@ You will need a recent version of Ruby. We now use [deliver](https://github.com/
 
 # Generating Screenshots
 
-Snapshot stuff has been moved to the main repo for now.
+Snapshot stuff has been moved to the main repository.
+
+```
+$ bundle exec fastlane screenshots
+```
 
 # Uploading Metadata
 
-Edit the metadata and pull in new translations with Transifex, then run:
+Moved to `fastlane` folder in the main repo.
 
-    $ fastlane deliver --force
+```
+$ bundle exec fastlane upload_screenshots
+$ bundle exec fastlane upload_metadata
+$ bundle exec fastlane upload_all
+```
 
 # Transifex
 

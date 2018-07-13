@@ -1,7 +1,5 @@
-* Message Archive Management (XEP-0313) - one-to-one and group chat history is now synchronized between multiple devices, if supported by your server.
-* Group Chat Bookmarks (XEP-0048) - Group chats are now bookmarked on your server to allow persistence between devices / installs.
-* OMEMO Group Chat Encryption - This is not yet recommended for general use and is for advanced users only. Must be globally enabled in Advanced Settings as well as individually for each group chat.
-* Improvements to general group chat user experience
-* Bug fixes and performance improvements
+* Fix bug causing duplicate MAM messages
+* No longer expires the last remaining OMEMO key after it hasn't been seen for > 30 days
+* Minor bug fixes
 
-Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.2.1...v4.3.0
+Changelog: https://github.com/chatsecure/chatsecure-ios/compare/v4.3.0...v4.3.1
