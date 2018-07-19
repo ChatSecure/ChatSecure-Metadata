@@ -46,9 +46,7 @@ Available Languages Codes: https://github.com/KrauseFx/deliver#available-languag
     
 # Updating What's New
     
-When releasing a new version we need to have a `version_whats_new.txt` for each language. Edit `metadata/en-US/version_whats_new.txt` then run:
-
-    $ python ./scripts/copy_whats_new.py
+Update release notes in the `Deliverfile` in the main repo.
     
 # License
 
